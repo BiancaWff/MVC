@@ -20,7 +20,7 @@
   <!-- ===== NAVBAR ===== -->
   <nav class="navbar" role="navigation" aria-label="Navegação principal">
     <div class="nav-inner">
-      <a class="logo" onclick="window.location.href=\'/home\'" role="button" tabindex="0" aria-label="PEVI - Página inicial">
+      <a class="logo" onclick="window.location.href='/home'" role="button" tabindex="0" aria-label="PEVI - Página inicial">
         <div class="logo-icon" aria-hidden="true">P</div>
         <div>
           <span class="logo-text">PEVI</span>
@@ -35,7 +35,7 @@
         <li><a href="/contato" class="nav-link">Contato</a></li>
       </ul>
       <div class="nav-actions">
-        <button class="btn-nav-outline" onclick="window.location.href=\'/vagas\'">Buscar Vagas</button>
+        <button class="btn-nav-outline" onclick="window.location.href='/vagas'">Buscar Vagas</button>
         <button class="btn-nav-primary" onclick="openModal('cadastro')">Cadastrar</button>
         <button class="a11y-nav-btn" onclick="openA11yPanel()" aria-label="Abrir painel de acessibilidade" title="Acessibilidade">♿</button>
       </div>
